@@ -1,5 +1,4 @@
-const data = 
-    {
+const data = {
     "filename": "PagesController#index",
     "name": "Home",
     "heading": "",
@@ -15,6 +14,22 @@ const data =
     "SEO_metaKeywords": "",
     "template": "PagesController#index",
     "latest": [
+        {
+            "ID": "2557018",
+            "link": "holliday-homes-in-zagreb-and-nearby-surroundings",
+            "naslov": "Explore the Holliday Homes of Zagreb Region",
+            "heading": "Due to obvious circumstances, many people choose to explore the countryside and spend more time in nature. It is a perfect way of avoiding large crowds of people and an even better way of spending time outside of your house or flat.",
+            "Likes": "264",
+            "CustomFieldsValues": {
+                "Autor": ""
+            },
+            "datum_od": "13.11.2020",
+            "PagesLink": "/topics/become-a-zagrebian",
+            "TopicName": "Become a Zagrebian",
+            "Liked": null,
+            "MediaFilePath": "media/news/",
+            "FileName": "medvednica-2-m-gaaparovi-5ef5beaf344b6@66c560ea-1726-43d9-8e2f-0290646ffb5a.jpg"
+        },
         {
             "ID": "2557025",
             "link": "how-about-some-truffles-from-around-zagreb",
@@ -126,22 +141,6 @@ const data =
             "Liked": null,
             "MediaFilePath": "media/news/",
             "FileName": "naslovna@ae30fd4d-0141-448c-911b-c45e9dd464b5.jpg"
-        },
-        {
-            "ID": "2557004",
-            "link": "-en-5f48b100198d8",
-            "naslov": "Zagreb Locals: The Art of Shoemaking as It Once Was",
-            "heading": "There is something really special about a family business that has been around for 80 years and three generations. Zagrebian shoemaking store Cipele Igrec is precisely that. Find out more in our monthly Zagreb locals interview.",
-            "Likes": "208",
-            "CustomFieldsValues": {
-                "Autor": ""
-            },
-            "datum_od": "25.09.2020",
-            "PagesLink": "/topics/more-than-words",
-            "TopicName": "More than Words",
-            "Liked": null,
-            "MediaFilePath": "media/news/",
-            "FileName": "42254109-604637333266570-8427512226084028416-o@80284d08-b070-463c-8d6d-d5cbec0558e2.jpg"
         }
     ],
     "topics": [
@@ -185,17 +184,17 @@ const data =
             "FileName": null,
             "MediaFilePath": null,
             "article": {
-                "ID": "2556964",
+                "ID": "2557018",
                 "IDKat": "198",
-                "naslov": "Mateo: An Unofficial Triathlete",
-                "link": "mateo-an-unofficial-triathletehello-world-my-name-is-mateo-im-25-im-kind-of-a-sports-addict-and-zagreb-is-my-town-i-was-born-and-raised-here-and-i-hope-that-some-day-this-will-be-my-childrens-town-to-i-love-my-home-town-because-it-offers-you-so-many-thing",
-                "heading": "Mateo is a true sports enthusiast, and if you're one, also, he's giving you an opportunity to see Zagreb through his eyes: \"Running, cycling, swimming, and mountain climbing. Those are my favorite sports, and Zagreb gives you the opportunities to try your best at all of them.\"",
-                "FileName": "d5d69b25-1a21-4812-8a5c-2bd20f331691.jpg",
+                "naslov": "Explore the Holliday Homes of Zagreb Region",
+                "link": "holliday-homes-in-zagreb-and-nearby-surroundings",
+                "heading": "Due to obvious circumstances, many people choose to explore the countryside and spend more time in nature. It is a perfect way of avoiding large crowds of people and an even better way of spending time outside of your house or flat.",
+                "FileName": "medvednica-2-m-gaaparovi-5ef5beaf344b6@66c560ea-1726-43d9-8e2f-0290646ffb5a.jpg",
                 "PagesLink": "/topics/become-a-zagrebian",
                 "TopicName": "Become a Zagrebian",
-                "datum_od": "25.05.2020",
+                "datum_od": "13.11.2020",
                 "MediaFilePath": "media/news/",
-                "Likes": "219",
+                "Likes": "264",
                 "Liked": null
             }
         },
@@ -212,17 +211,17 @@ const data =
             "FileName": null,
             "MediaFilePath": null,
             "article": {
-                "ID": "2557009",
+                "ID": "2557018",
                 "IDKat": "195",
-                "naslov": "A.G. Matoš – A Poet, Modernist And Beloved Zagrebian",
-                "link": "ag-matos-a-poet-modernist-and-beloved-zagrebian",
-                "heading": "\"Considered to be the champion of Croatian modernist literature, one of the greatest merits attributed to Matoš is opening up Croatian literature to modern European literature and the currents of his time.\"",
-                "FileName": "matos@a9502090-4453-404d-ad48-880a688733bb.jpg",
+                "naslov": "Explore the Holliday Homes of Zagreb Region",
+                "link": "holliday-homes-in-zagreb-and-nearby-surroundings",
+                "heading": "Due to obvious circumstances, many people choose to explore the countryside and spend more time in nature. It is a perfect way of avoiding large crowds of people and an even better way of spending time outside of your house or flat.",
+                "FileName": "medvednica-2-m-gaaparovi-5ef5beaf344b6@66c560ea-1726-43d9-8e2f-0290646ffb5a.jpg",
                 "PagesLink": "/topics/more-than-words",
                 "TopicName": "More than Words",
-                "datum_od": "29.10.2020",
+                "datum_od": "13.11.2020",
                 "MediaFilePath": "media/news/",
-                "Likes": "227",
+                "Likes": "264",
                 "Liked": null
             }
         },
@@ -656,6 +655,7 @@ const data =
     ],
     "bodyClass": "index"
 }
+   
 
 
 export default data
