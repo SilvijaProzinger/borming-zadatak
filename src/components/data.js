@@ -15,6 +15,22 @@ const data = {
     "template": "PagesController#index",
     "latest": [
         {
+            "ID": "2557028",
+            "link": "autumn-calls-for-mushrooms",
+            "naslov": "Autumn Calls for Mushrooms",
+            "heading": "Zagreb has a lot of museums, but do you know which is the only one located on the main square? Mushroom Museum! This fact tells a lot about how important mushrooms are to us.",
+            "Likes": "208",
+            "CustomFieldsValues": {
+                "Autor": ""
+            },
+            "datum_od": "16.11.2020",
+            "PagesLink": "/topics/gastro",
+            "TopicName": "Gastro",
+            "Liked": null,
+            "MediaFilePath": "media/news/",
+            "FileName": "naslovna@c2ec50c1-8bb6-44f8-8ddb-ad80601ff801.jpg"
+        },
+        {
             "ID": "2557018",
             "link": "holliday-homes-in-zagreb-and-nearby-surroundings",
             "naslov": "Explore the Holliday Homes of Zagreb Region",
@@ -125,22 +141,6 @@ const data = {
             "Liked": null,
             "MediaFilePath": "media/news/",
             "FileName": "thumbnail-dji-0030@314747d2-58b7-4ab5-940d-9c2e54340b6b.jpg"
-        },
-        {
-            "ID": "2557016",
-            "link": "a-tale-of-two-ivanas",
-            "naslov": "A Tale of Two Ivanas",
-            "heading": "Zagreb's food scene is as lively as ever – some brave and visionary people obviously see a window of opportunity in this wretched year.",
-            "Likes": "203",
-            "CustomFieldsValues": {
-                "Autor": ""
-            },
-            "datum_od": "02.10.2020",
-            "PagesLink": "/topics/gastro",
-            "TopicName": "Gastro",
-            "Liked": null,
-            "MediaFilePath": "media/news/",
-            "FileName": "naslovna@ae30fd4d-0141-448c-911b-c45e9dd464b5.jpg"
         }
     ],
     "topics": [
@@ -157,17 +157,17 @@ const data = {
             "FileName": null,
             "MediaFilePath": null,
             "article": {
-                "ID": "2557025",
+                "ID": "2557028",
                 "IDKat": "196",
-                "naslov": "How about Some Truffles from around Zagreb?",
-                "link": "how-about-some-truffles-from-around-zagreb",
-                "heading": "Zagreb has been known for a number of things, but truffles are definitely not one of them. Yet, surprisingly enough, this might change in future.",
-                "FileName": "naslovna@a6e4a2b9-2d78-44be-8611-543030707e3e.jpg",
+                "naslov": "Autumn Calls for Mushrooms",
+                "link": "autumn-calls-for-mushrooms",
+                "heading": "Zagreb has a lot of museums, but do you know which is the only one located on the main square? Mushroom Museum! This fact tells a lot about how important mushrooms are to us.",
+                "FileName": "naslovna@c2ec50c1-8bb6-44f8-8ddb-ad80601ff801.jpg",
                 "PagesLink": "/topics/gastro",
                 "TopicName": "Gastro",
-                "datum_od": "30.10.2020",
+                "datum_od": "16.11.2020",
                 "MediaFilePath": "media/news/",
-                "Likes": "207",
+                "Likes": "208",
                 "Liked": null
             }
         },
@@ -655,7 +655,5 @@ const data = {
     ],
     "bodyClass": "index"
 }
-   
-
 
 export default data

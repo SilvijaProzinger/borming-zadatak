@@ -1,10 +1,19 @@
 body {
   background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
   color: white;
   text-decoration: none; 
+}
+
+p, h2, h3 {
+  color: black;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Latest */
@@ -123,13 +132,32 @@ a {
 
 /* Topics */
 
+.topics-wrapper {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.topic-container {
+  padding: 55px;
+  background-color: #797979;
+  margin: 1px;
+}
+
+.topic {
+  width: 200px;
+}
 
 
 /* Latest Images */
 
 .latest-images {
-  display: inline-block;
+  display: flex;
+  max-width: 100%;
   padding-top: 30px;
+  overflow: hidden;
 }
 
 .img-container {
@@ -140,16 +168,12 @@ a {
   border-radius: 4px;
   margin-top: 20px;
   cursor: pointer;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  -webkit-transform-origin: 50% 0;
-  -ms-transform-origin: 50% 0;
-  transform-origin: 50% 0;
   margin: 10px;
 }
 
 .latest-img {
   height: 180px;
+  width: 145px;
 }
 
 .img-author {
@@ -168,6 +192,14 @@ a {
   cursor: pointer;
 }
 
+.send-photo-link {
+  color: #ed1d5b;
+}
+
+.send-photo-link:hover {
+  color: white;
+}
+
 .send-button {
   background-color: transparent;
   color: #ed1d5b;
@@ -179,7 +211,6 @@ a {
 .send-button:hover {
   cursor: pointer;
   background-color: #ed1d5b;
-  color: white;
 }
 
 .photo-buttons {

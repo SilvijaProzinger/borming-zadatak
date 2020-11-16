@@ -25,7 +25,9 @@ const Latest = () => {
 
   const latest = data.latest.slice(1,8).map((item, index) => {
     return (
-        <div key={index} className="story">
+        <div className="story" key={index}>
+        <a href={`https://www.lovezagreb.hr${item.PagesLink}/${item.link}`}>
+        <div>
             <img className="bg-image" src={'https://www.lovezagreb.hr/media/news/medium_' + item.FileName} alt=""/>
             <h3>{item.naslov}</h3>
             <p>{item.heading}</p>
@@ -36,6 +38,8 @@ const Latest = () => {
                     <p className="topic">{item.TopicName}</p>
                 </div>
             </div>
+        </div>
+        </a>
         </div>
     )
   })
